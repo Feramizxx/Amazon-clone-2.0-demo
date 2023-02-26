@@ -17,10 +17,11 @@ function Header() {
     <header>
       <div className="flex items-center justify-between bg-amazon_blue p-1 flex-grow py-2">
         <div className="mt-2 flex  items-center flex-grow sm:flex-grow-0">
-          <Image
+          <img
+          loading="lazy"
             onClick={() => router.push("/")}
             className="cursor-pointer "
-            src="https://links.papareact.com/f90"
+            src="/amazon_PNG11.png"
             width={150}
             height={150}
             alt=""
